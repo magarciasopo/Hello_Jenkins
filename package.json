@@ -1,0 +1,16 @@
+#Application example in AngularJS  Nodejs
+#Install dependencies defined in this file by npm install
+
+{
+  "name": "hello-jenkins",
+  "description": "hello jenkins test app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {   # Dependenci to create our Node.js App
+    "express": "3.12.0"
+  },
+  "devDependencies": {  #Dependencies to write our test
+    "mocha": "1.20.1",
+    "supertest": "0.13.0"
+  }
+}
